@@ -1,0 +1,6 @@
+{
+  "name": "all-skills",
+  "version": "1.0.0",
+  "description": "Bundle of multiple skills installed as one plugin.",
+  "skills": "./skills"
+}
