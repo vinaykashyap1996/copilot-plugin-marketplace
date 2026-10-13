@@ -1,16 +1,53 @@
 {
   "name": "copilot-plugin-marketplace",
-  "owner": {
-    "name": "vinaykashyap1996"
-  },
+  "owner": { "name": "vinaykashyap1996" },
   "metadata": {
-    "description": "Marketplace for bundled Copilot plugins.",
-    "version": "0.1.0"
+    "description": "Central marketplace. Each plugin lives in its own repo.",
+    "version": "0.2.0"
   },
   "plugins": [
     {
+      "name": "inmation-web-agent-skills",
+      "description": "inmation WebStudio skills, reviewer/author agents, prompts and guardrail hooks.",
+      "version": "0.4.0",
+      "source": {
+        "source": "github",
+        "repo": "aspentechnology/eop-inmation-web-agent-skills"
+      }
+    },
+    {
+      "name": "skill-summarizer",
+      "description": "Summarizes GitHub issues into concise action-oriented briefs.",
+      "version": "0.1.0",
+      "source": {
+        "source": "github",
+        "repo": "vinaykashyap1996/simple-copilot-plugins-app",
+        "path": "plugins/skill-summarizer"
+      }
+    },
+    {
+      "name": "agent-triage",
+      "description": "Reviews pull requests for risk, test gaps, and rollout readiness.",
+      "version": "0.1.0",
+      "source": {
+        "source": "github",
+        "repo": "vinaykashyap1996/simple-copilot-plugins-app",
+        "path": "plugins/agent-triage"
+      }
+    },
+    {
+      "name": "mcp-local-tools",
+      "description": "Read-only local file tools exposed through MCP.",
+      "version": "0.1.0",
+      "source": {
+        "source": "github",
+        "repo": "vinaykashyap1996/simple-copilot-plugins-app",
+        "path": "plugins/mcp-local-tools"
+      }
+    },
+    {
       "name": "all-skills",
-      "description": "Install all bundled skills together.",
+      "description": "Legacy local bundle of skills.",
       "version": "1.0.0",
       "source": "./plugins/all-skills"
     }
